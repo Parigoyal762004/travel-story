@@ -1,24 +1,50 @@
-# Logs
-logs
+# Node modules and build
+node_modules/
+lib/
+dist/
+out/
+build/
+.temp/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Next.js / React (if applicable)
+.next/
+dist-ssr/
+
+# Environment variables and secrets
+.env
+.env.*
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Mongoose DB config or other sensitive backend files
+# Config with sensitive data
+backend/config.json
+
+backend/connection.js
+backend/db.js
+backend/mongoose.js
+
+# System & Editor junk
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Test and coverage
+coverage/
+test-results/
+
+# ChromeDriver or binaries
+chromedriver.exe
