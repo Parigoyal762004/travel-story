@@ -1,4 +1,5 @@
-require("dotenv").config();
+import dotenv from 'dotenv';
+dotenv.config();
 
 const config = require("./config.json");
 const mongoose = require("mongoose");
